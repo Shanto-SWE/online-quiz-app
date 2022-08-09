@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    background-color: cadetblue!important;
+}
+.option{
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+.header{
+    margin-bottom: 160px;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+  
+}
+.header h1{
+    font-size: 60px;
+}
+.option{
+    margin-bottom: 200px;
+    
+    
+}
+.option a{
+    text-decoration: none;
+   
+    padding: 10px 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    background-color: #16a085;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.option a:hover{
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+/* main file */
+.choise li{
+    list-style: none;
+}
+.logout{
+    text-decoration: none;
+   border-radius: 10px;
+   font-size: 20px;
+   padding: 6px 6px;
+   background-color:#16a085 ;
+   color: #fff;
+   margin: 60px;
+}
+.logout:hover{
+    background-color: #1abc9c;
+    color: #fff;
+   
+
+}
+.add form input[type=number]{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 60px;
+}
+/* question.php------------------ */
+header{
+	border-bottom: 3px #f4f4f4 solid;
+	background: 4c7578;
+}
+
+
+
+.current{
+	padding: 10px;
+	background: #f4f4f4;
+	border: #000 dotted 1px;
+	margin: 20px 0 10px 0;
+}
